@@ -1,7 +1,6 @@
 // Filename - components/Footer.js
 import { Button } from "antd";
 import { MdMailOutline } from "react-icons/md";
-import { FaInstagram } from "react-icons/fa";
 import { FaGithub } from "react-icons/fa";
 import pointer from "../../assets/pointer.gif";
 import thanks from "../../assets/thanks.gif";
@@ -35,14 +34,11 @@ const Footer = () => {
 					</Column>
 					<Column>
 						<Heading>Social Media</Heading>
-						<FooterLink href="mailto:rohithsai352@gmail.com">
+						<FooterLink href="mailto:nishithach41@gmail.com">
 							Gmail  <MdMailOutline />
 						</FooterLink>
-						<FooterLink href="https://github.com/Rohithsai922">
+						<FooterLink href="https://github.com/Nishu41">
 							Github <FaGithub />
-						</FooterLink>
-						<FooterLink href="https://www.instagram.com/rohithsai922/">
-							Instagram  <FaInstagram />
 						</FooterLink>
 						
 						

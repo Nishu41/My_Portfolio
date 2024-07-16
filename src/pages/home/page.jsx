@@ -1,24 +1,24 @@
 import React from 'react'
 import '../home/home.css'
 import Cards from '../../components/Cards/cards'
-import profile from '../../assets/Profile_img.png'
+import profile from '../../assets/profile_img.png'
 import Footer from '../../components/Footer/Footer'
 import html from "../../assets/html.png"
 import css from "../../assets/css.png"
 import js from "../../assets/js.png"
 import react from "../../assets/react.png"
 import php from '../../assets/php.png'
-import cpp from '../../assets/cppbgless.png'
+import cpp from '../../assets/cpp.png'
 import c from '../../assets/c.png'
-import mysql from '../../assets/mysql.png'
-import resume from '../../assets/Rohith_sai_Resume.pdf'
-import expimage from "../../assets/exp_man_bg.webp"
+import mysql from '../../assets/mysql-logo.png'
+import resume from '../../assets/Nishitha_Resume.pdf'
+import expimage from "../../assets/online_bus_booking_bg.webp"
 import bakeryimage from "../../assets/bakery_bg.jpg"
 import blog from "../../assets/blog.png"
 import aboutimg from "../../assets/aboutimg.png"
 import Timeline from '../../components/Timeline/Timeline'
 import { Button } from 'antd'
-import {motion} from 'framer-motion'
+import { motion } from 'framer-motion'
 import { useState } from 'react'
 import { Fade } from 'react-reveal';
 import { AttentionSeeker } from 'react-awesome-reveal'
@@ -43,20 +43,20 @@ const Home = () => {
       
       <div className='hero-section'>
         
-      <div class="blob">
+      <div className="blob">
       <img src={profile} alt="Profile" className='profileimg' />
       </div>
       <Fade>
       <div className="intro">
-        <h1>Penumajji Rohith sai</h1>
+        <h1>Ch Nishitha</h1>
 
-        <div class="typewriter">
+        <div className="typewriter">
         <h1>I am a <span className='typed'>Full Stack Developer </span>...</h1>
 
         </div>
         <h2>Computer Science Student</h2>
         <h2>Final Year at NIT SURAT </h2>
-        <a href={resume} download="Rohith_Resume">
+        <a href={resume} download="Nishitha_Resume">
         <Button id="resume">Resume</Button>
         </a>
       </div>
@@ -76,7 +76,7 @@ const Home = () => {
               I am deeply passionate about web development and competitive programming.
           </h3>
           <h3>
-              From crafting interactive web applications to solving  algorithmic problems, I find joy in the process
+              From crafting interactive web applications to solving algorithmic problems, I find joy in the process
                of creating and innovating.
           </h3>
           <h3>
@@ -123,10 +123,10 @@ const Home = () => {
         >
 
 
-     <Cards titlee="Expense Manager"
+     <Cards titlee="Online_Bus_Booking_Application"
             imagee={expimage}
            descriptionn="" 
-           github="https://github.com/Rohithsai922/Expense_Manager.git" 
+           github="https://github.com/Nishu41/Online_bus_booking_application.git" 
            onClick={toggleIsOpen1}
            className="card"/>
            </motion.div>
@@ -137,16 +137,14 @@ const Home = () => {
             animate={{clipPath: 'circle(140.9% at 0 0)'}}
             transition={{duration: .5,delay: .25,type:'spring', damping:25,stiffness: 100}}
           >
-            <p className='knowmore'>
-              
-This expense manager web application, built using multiple technologies, 
-serves as a comprehensive tool for users to track their daily expenses.
- With user authentication in place, it securely stores expense data in a MYSQL database.
- The application facilitates expense analysis by category, offering users insights into their spending patterns.
+            <p className='knowmore'> 
+            This Online Bus Booking Application is a user-friendly platform designed to 
+            streamline and simplify the process of booking bus tickets.
+             This application provides a comprehensive solution for passengers to search for buses, view schedules, select seats, and make reservations online.
+             With its emphasis on convenience and efficiency, the Online Bus Booking Application aims to enhance the travel experience by making bus ticket booking simple, fast, and reliable.
             </p>
             <p className='knowmore'>
-              Tech Stacks : HTML,CSS, JS, MYSQL, PHP
-                 
+              Tech Stacks : HTML, CSS, JS, MYSQL, PHP.    
             </p>
           </motion.div>
         )}
@@ -168,7 +166,7 @@ serves as a comprehensive tool for users to track their daily expenses.
      <Cards    titlee="A1_Bakery" 
             imagee={bakeryimage}
             descriptionn=""
-            github="https://github.com/Rohithsai922/A1_BAKERY.git" 
+            github="https://github.com/Nishu41/A1_Bakery-website.git" 
             onClick={toggleIsOpen2}
             className="card"/>
       </motion.div>
@@ -183,11 +181,11 @@ serves as a comprehensive tool for users to track their daily expenses.
              
           In my first year, I participated in the Google Winter of Code Contest with a team of four. 
           Our project involved creating a frontend web application for a bakery,
-         which included a feature to link orders to WhatsApp and various filters based on theme, cost, and rating. . 
+         which included a feature to link orders to WhatsApp and various filters based on theme, cost, and rating.
          This experience significantly improved our team and time management skills.
             </p>
             <p className='knowmore'>
-              Tech Stacks : HTML, CSS, JS .
+              Tech Stacks : HTML, CSS, JS.
             </p>
           </motion.div>
         )}
@@ -209,7 +207,7 @@ serves as a comprehensive tool for users to track their daily expenses.
      <Cards titlee="Personal_Blog" 
            imagee={blog}
           descriptionn="" 
-           github="https://github.com/Rohithsai922/Personal_Blog.git"
+           github="https://github.com/Nishu41/Personal_Blog.git"
           onClick={toggleIsOpen3}
           className="card"/>
       </motion.div>
@@ -229,7 +227,7 @@ serves as a comprehensive tool for users to track their daily expenses.
             ensuring a seamless experience for all users.
             </p>
             <p className='knowmore'>
-                 Tech Stacks : HTML, CSS, JS , React, NodeJS , MongoDB, ExpressJS .    
+                 Tech Stacks : HTML, CSS, JS, React, NodeJS, MongoDB, ExpressJS.    
             </p>
           </motion.div>
         )}

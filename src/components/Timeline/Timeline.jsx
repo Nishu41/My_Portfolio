@@ -1,7 +1,7 @@
 import React from 'react'
 import "./Timeline.css"
 import svnit from "../../assets/svnit.png"
-import bhashyam from "../../assets/bhashyam.png"
+import narayana from "../../assets/narayana.jpg"
 import {Fade} from "react-awesome-reveal"
 import { FaUserGraduate } from "react-icons/fa";
 import { FaSchool } from "react-icons/fa6";
@@ -77,16 +77,15 @@ const Timeline = () => {
                 <Slide direction='right' triggerOnce>
               <div class="ag-timeline-card_inner">
                 <div class="ag-timeline-card_img-box">
-                  <img src={bhashyam} alt="bhashyam" class="ag-timeline-card_img" width="600" height="300"  />
+                  <img src={narayana} alt="narayana" class="ag-timeline-card_img" width="600" height="300"  />
                 </div>
                 <div class="ag-timeline-card_info">
                   <div class="ag-timeline-card_title">11th & 12th</div>
                   
                   <div class="ag-timeline-card_desc">
                       2019-2021<br></br>
-                     I had Completed my Intermediate at Bhashyam Junior College. <br></br>
+                     I had Completed my Intermediate at Narayana Junior College. <br></br>
                       My  Group was : Maths Physics Chemistry (MPC) <br></br>
-                     JEE Main Percentile : 99.5%
 
 
                   </div>
