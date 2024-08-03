@@ -18,7 +18,7 @@ import blog from "../../assets/blog.png"
 import aboutimg from "../../assets/aboutimg.png"
 import Timeline from '../../components/Timeline/Timeline'
 import { Button } from 'antd'
-import { motion } from 'framer-motion'
+import { motion } from 'framer-motion/dist/framer-motion'
 import { useState } from 'react'
 import { Fade } from 'react-awesome-reveal'
 import { AttentionSeeker } from 'react-awesome-reveal'
