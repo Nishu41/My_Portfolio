@@ -1,7 +1,7 @@
 import React from 'react'
 import '../home/home.css'
 import Cards from '../../components/Cards/cards'
-import profile from '../../assets/profile_img.png'
+import profile from '../../assets/Profile_img.png'
 import Footer from '../../components/Footer/Footer'
 import html from "../../assets/html.png"
 import css from "../../assets/css.png"
